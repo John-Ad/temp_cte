@@ -10,6 +10,16 @@ public class Tokenizer3 {
     }
 }
 
+class Token {
+    public String type;
+    public String value;
+
+    public Token(String type, String value) {
+        this.type = type;
+        this.value = value;
+    }
+}
+
 class StrTokenizer3 {
     private Scanner scanner;
     private String userInput;

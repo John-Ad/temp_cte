@@ -12,6 +12,16 @@ public class Tokenizer1 {
     }
 }
 
+class Token {
+    public String type;
+    public String value;
+
+    public Token(String type, String value) {
+        this.type = type;
+        this.value = value;
+    }
+}
+
 class StrTokenizer1 {
     private Scanner scanner;
     protected String userInput;
